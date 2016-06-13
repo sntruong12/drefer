@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Drefer Fest</title>
+  </head>
+  <body>
+    <!--jumbotron 1-->
+    <div class="allJumboContain">
+    <div class="container jumboBG">
+      <div class="jumbotron1">
+        <img src="images/jumbo.png" alt="" />
+      </div>
+    </div>
+    </div>
+    <!--navbar-->
+    <nav class="navbarSticky z-depth-0">
+      <div class="nav-wrapper">
+        <ul id="nav-mobile">
+<!-- href links are linked to ids of corresponding scrollspy points -->
+          <li><a href="#lineup">lineup</a></li>
+          <li><a href="#tickets">tickets</a></li>
+          <li><a href="#history">history</a></li>
+          <li><a href="#boxMap">venue</a></li>
+          <li><a href="#boxHotelInfo">details</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!--lineup1-->
+  <div class="lineupBG">
+    <div class="container lineup1position">
+      <div class="row lineup1padding">
+        <div class="col s12 lineup1 section scrollspy" id="lineup">
+          <img src="images/banner.png"/>
+          <div class="textOverlay">
+            <h2 class="center-align lineupTitle">
+              line up
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="row lineupMargin">
+        <div class="col s5 offset-s1">
+          <p class="center-align">
+            <span class="lineupPinkText">
+              bride<br>
+            </span>
+            <span class="lineupWhiteText">
+              andrea<br>
+              guerrero
+            </span>
+          </p>
+        </div>
+        <div class="col s5">
+          <p class="center-align">
+            <span class="lineupPinkText">
+              groom<br>
+            </span>
+            <span class="lineupWhiteText">
+              keith<br>
+              france
+            </span>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <p class="center-align">
+            <span class="lineupPinkText">
+              bridesmaids<br>
+            </span>
+            <a class="lineupWhiteText2 modal-trigger" href="#modal1">
+              chelsea haring
+            </a>
+            <span class="pinkBullet">
+              &bull;
+            </span>
+            <a class="lineupWhiteText2 modal-trigger" href="#modal2">
+              tammy fairchild<br>
+            </a>
+            <a class="lineupWhiteText2 modal-trigger" href="#modal3">
+              pam weaver
+            </a>
+            <span class="pinkBullet">
+              &bull;
+            </span>
+            <a class="lineupWhiteText2 modal-trigger" href="#modal4">
+              erin haring-switzer
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <p class="center-align">
+            <span class="lineupPinkText">
+              groomsmen<br>
+            </span>
+            <a class="lineupWhiteText2 modal-trigger" href="#modal5">
+              brian mcneal
+            </a>
+            <span class="pinkBullet">
+              &bull;
+            </span>
+            <a class="lineupWhiteText2 modal-trigger" href="#modal6">
+              doug miltenberger<br>
+            </a>
+            <a class="lineupWhiteText2 modal-trigger" href="#modal7">
+              christopher barefoot
+            </a>
+            <span class="pinkBullet">
+              &bull;
+            </span>
+            <a class="lineupWhiteText2 modal-trigger" href="#modal8">
+              pat miltenberger
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s5 offset-s1">
+          <p class="center-align">
+            <span class="lineupPinkText">
+              minister<br>
+            </span>
+            <a class="lineupWhiteText3 modal-trigger" href="#modal9">
+              brad polley
+            </a>
+          </p>
+        </div>
+        <div class="col s5">
+          <p class="center-align">
+            <span class="lineupPinkText">
+              live performer<br>
+            </span>
+            <a class="lineupWhiteText3 modal-trigger" href="#modal10">
+              mandy polley
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- modals for line up -->
+  <!-- modal 1 -->
+  <div id="modal1" class="modal">
+    <div class="modal-content center">
+      <img src="images/Chelsea-Haring.png"/>
+      <p class="modal-textinfo">
+        Chelsea Haring aka Nestor<br>
+        Nestor is a autocorrect on spellcheck for Bestie<br>
+        Chicago roomie and all around maker of shenanigans
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close">
+        <i class="fa fa-times right" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+  <!-- modal 2 -->
+  <div id="modal2" class="modal">
+    <div class="modal-content center">
+      <img src="images/tammy-fairchild.png"/>
+      <p class="modal-textinfo">
+        Tammy Fairchild<br>
+        Best. Wing-women. Ever!<br>
+        Chick-chick boom partner for life
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close">
+        <i class="fa fa-times right" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+  <!-- modal 3 -->
+  <div id="modal3" class="modal">
+    <div class="modal-content center">
+      <img src="images/pam-weaver.png"/>
+      <p class="modal-textinfo">
+      Pam Weaver<br>
+      Ukulele enthusiast &<br>
+      Doer of what makes her more happy!
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close">
+        <i class="fa fa-times right" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+  <!-- modal 4 -->
+  <div id="modal4" class="modal">
+    <div class="modal-content center">
+      <img src="images/Erin-Haring-Switzer.png"/>
+      <p class="modal-textinfo">
+        Erin Haring-Switzer<br>
+        Master of "Can you do this?"<br>
+        2014 Punch You in the Throat Fantasy Football Champ
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close">
+        <i class="fa fa-times right" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+  <!-- modal 5 -->
+  <div id="modal5" class="modal">
+    <div class="modal-content center">
+      <img src="images/Brian-McNeal.png"/>
+      <p class="modal-textinfo">
+        Brian McNeal<br>
+        Master chef. Partner in Blue.<br>
+        All around tail gate legend.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close">
+        <i class="fa fa-times right" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+  <!-- modal 6 -->
+  <div id="modal6" class="modal">
+    <div class="modal-content center">
+      <img src="images/Doug-Miltenberger.png"/>
+      <p class="modal-textinfo">
+        Doug Miltenberger<br>
+        "Frank the tank" Notorious D.U.G.<br>
+        Maker of the big breakfast.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close">
+        <i class="fa fa-times right" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+  <!-- modal 7 -->
+  <div id="modal7" class="modal">
+    <div class="modal-content center">
+      <img src="images/Christopher-Barefoot.png"/>
+      <p class="modal-textinfo">
+        Christopher Barefoot<br>
+        One time wingman.<br>
+        Lover of fireworks. Boating enthusiast.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close">
+        <i class="fa fa-times right" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+  <!-- modal 8 -->
+  <div id="modal8" class="modal">
+    <div class="modal-content center">
+      <img src="images/Pat-Miltenberger.png"/>
+      <p class="modal-textinfo">
+        Pat Miltenberger<br>
+        Patty Milt.<br>
+        The Godfather. Captain Pat.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close">
+        <i class="fa fa-times right" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+  <!-- modal 9 -->
+  <div id="modal9" class="modal">
+    <div class="modal-content center">
+      <img src="images/brad-polley.png"/>
+      <p class="modal-textinfo">
+        Brad Polley<br>
+        Inglorious Pasterd<br>
+        Maker of Marriages
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close">
+        <i class="fa fa-times right" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+  <!-- modal 10 -->
+  <div id="modal10" class="modal">
+    <div class="modal-content center">
+      <img src="images/mandy-polley.png"/>
+      <p class="modal-textinfo">
+        Mandy Polley<br>
+        Songstress<br>
+        Voice of her generation
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close">
+        <i class="fa fa-times right" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+    <!--rsvp-->
+    <div class="allRsvpContain">
+    <div class="container rsvpPosition">
+        <div class="rsvpBG section scrollspy" id="tickets">
+          <div class="row rsvpRowHeight">
+            <div class="col s6 blankRsvpDiv">
+              <p class="blankRsvpP">
+                Truong Mob
+              </p>
+            </div>
+            <div class="col s6 formRsvpDiv">
+              <form class="input-field">
+                <input id="RSVPname" placeholder="NAME" type="text"><br>
+                <input id="RSVPguests" placeholder="NO. OF GUESTS" type="number"><br>
+                <input id="RSVPemail" placeholder="EMAIL" type="text"><br>
+                <input id="RSVPpassword" placeholder="PASSWORD" type="text"><br>
+              </form>
+              <a id="ButtonSubmit" onclick="postContactToGoogle()" class="waves-effect waves-light waves-block btn-flat rsvpButton" type="submit" name="action"><span>rsvp</span></a>
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+<!-- history -->
+<div class="allHistoryContain">
+<div class="container histHead">
+<!--header-->
+  <div class="row">
+    <div class="col s12 center historyHeader section scrollspy" id="history">
+      <img src="images/history-banner.png" />
+    </div>
+  </div>
+</div>
+<div class="container historyContainer">
+<!-- row 1 -->
+  <div class="row">
+    <div class="col s6 offset-s6">
+      <div class="row">
+        <div class="col s8 offRight">
+          <div class="post-thumb-right">
+            <img src="images/illustration_1.png" />
+          </div>
+          <div class="post-content-right">
+            <img class="bulletRight" src="images/bullet.png" />
+            <img src="images/right-banner.png" />
+            <div class="titleDiv">
+              <p class="post-title-right">SEPT 3, 2012</p>
+            </div>
+            <p class="post-text-right">
+              Keith + Andrea meet at the KISS/Motley Crew Concert also Tammy's birthday celebration!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- row 2 -->
+  <div class="row">
+    <div class="col s6">
+      <div class="row">
+        <div class="col s8 offset-s4 offLeft">
+          <div class="post-thumb-left">
+            <img src="images/illustration_2.png" />
+          </div>
+          <div class="post-content-left">
+            <img class="bannerLeft" src="images/left-banner.png" />
+            <img class="bulletLeft" src="images/bullet.png" />
+          <div class="titleDivleft">
+            <p class="post-title-left">OCT 6, 2012</p>
+          </div>
+            <p class="post-text-left">
+              First date, October 6th. Keith drove up to Chicago and sold his Green Bay/Colts tickets. The game that Luck came back in the 4th quarter for the win.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- row 3 -->
+  <div class="row">
+    <div class="col s6 offset-s6">
+      <div class="row">
+        <div class="col s8 offRight2">
+          <div class="post-thumb-right">
+            <img src="images/illustration_3.png" />
+          </div>
+          <div class="post-content-right">
+            <img class="bulletRight2" src="images/bullet.png" />
+            <img src="images/right-banner.png" />
+            <div class="titleDiv">
+              <p class="post-title-right">NOV 1, 2012</p>
+            </div>
+            <p class="post-text-right">
+              First Road Trip; Milwaukee to see the Red Hot Chili Peppers. Keith knew he was falling for Andrea.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- row 4 -->
+  <div class="row">
+    <div class="col s6">
+      <div class="row">
+        <div class="col s8 offset-s4 offLeft2">
+          <div class="post-thumb-left">
+            <img src="images/illustration_4.png" />
+          </div>
+          <div class="post-content-left">
+            <img class="bannerLeft" src="images/left-banner.png" />
+            <img class="bulletLeft2" src="images/bullet.png" />
+          <div class="titleDivleft">
+            <p class="post-title-left2">DEC 2012</p>
+          </div>
+            <p class="post-text-left">
+              Andrea meets Keith's family for their first shared holiday, Christmas 2012. Dre knew when they got snowed in for a few extra days that this was for keeps.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- row 5 -->
+  <div class="row">
+    <div class="col s6 offset-s6">
+      <div class="row">
+        <div class="col s8 offRight3">
+          <div class="post-thumb-right">
+            <img src="images/illustration_5.png" />
+          </div>
+          <div class="post-content-right">
+            <img class="bulletRight3" src="images/bullet.png" />
+            <img src="images/right-banner.png" />
+            <div class="titleDiv">
+              <p class="post-title-right2">MAR 2013</p>
+            </div>
+            <p class="post-text-right">
+              Keith meets Andrea's family in the typical fashion, all at once, for her mom's birthday dinner. Everyone, of course, loves him!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- row 6 -->
+  <div class="row">
+    <div class="col s6">
+      <div class="row">
+        <div class="col s8 offset-s4 offLeft3">
+          <div class="post-thumb-left">
+            <img src="images/illustration_6.png" />
+          </div>
+          <div class="post-content-left">
+            <img class="bannerLeft" src="images/left-banner.png" />
+            <img class="bulletLeft3" src="images/bullet.png" />
+          <div class="titleDivleft">
+            <p class="post-title-left3">JUNE 2014</p>
+          </div>
+            <p class="post-text-left">
+              Andrea left Chicago and moved back to Indiana, this shortened their commute, though not by much.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- row 7 -->
+  <div class="row lastHistoryRow">
+    <div class="col s6 offset-s6">
+      <div class="row">
+        <div class="col s8 offRight4">
+          <div class="post-thumb-right">
+            <img src="images/illustration_7.png" />
+          </div>
+          <div class="post-content-right">
+            <img class="bulletRight4" src="images/bullet.png" />
+            <img src="images/right-banner.png" />
+            <div class="titleDiv">
+              <p class="post-title-right3">APR 18, 2015</p>
+            </div>
+            <p class="post-text-right">
+              Keith planned a day trip to Brown County State Park and surprised Andrea with a ring and a proposal to spend the rest of our lives together. Andrea gladly said yes!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- history footer -->
+<div class="container histFoot">
+  <div class="row">
+    <div class="col s12 center-align historyFooter">
+      <div class="whiteBG">
+        <h4 class="post-title-bottom">SEPT 4, 2016</h4>
+      </div>
+      <h3 class="footerText">
+        THE START TO THEIR HAPPILY EVER AFTER.
+      </h3>
+      <img src="images/illustration_10.png" />
+    </div>
+  </div>
+</div>
+</div>
+<!-- map to venue -->
+<div class="container allboxContainer">
+
+<div class="container mapContainer">
+  <div class="row" id="centerRow">
+    <div class="col s6 section scrollspy" id="boxMap">
+      <img src="images/venue-map.png" alt="" />
+    </div>
+    <div class="col s6" id="boxMapInfo">
+      <div class="divMapInfo">
+        <p class="boxFontHead">VENUE INFO</p>
+        <p class="boxFontTitle">K&S FARMS</p>
+        <p class="boxFont">405 W 266th St</p>
+        <p class="boxFont">Sheridan, IN 46069</p>
+        <a href="https://goo.gl/maps/JwXEWo2fm5t" class="boxFontButton">
+          <div class="directionsLink">
+            <div class="linkContainer">
+              <div class="linkLeft">
+                CLICK FOR DIRECTIONS
+              </div>
+              <div class="linkRight">
+                <i class="material-icons">play_arrow</i>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- hotel info -->
+<div class="container hotelContainer">
+  <div class="row" id="centerRow">
+    <div class="col s6 section scrollspy" id="boxHotelInfo">
+      <div class="divHotelInfo">
+        <p class="boxFontHead">HOTEL INFO</p>
+        <p class="boxFontTitle">RENAISSANCE HOTEL</p>
+        <p class="boxFont">11925 N Meridian St.</p>
+        <p class="boxFont">Carmel, IN 46032</p>
+        <p class="boxFont">317.816.0777</p>
+        <a href="https://resweb.passkey.com/go/GuerreroFranceWeddingBlock" class="boxFontButton">
+          <div class="bookingLink">
+            <div class="linkContainer">
+              <div class="linkLeft2">
+                CLICK TO BOOK ROOM
+              </div>
+              <div class="linkRight">
+                <i class="material-icons">play_arrow</i>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col s6" id="boxHotelMap">
+      <img src="images/hotel-map.png" alt="" />
+    </div>
+  </div>
+</div>
+<!-- picture and gift registry -->
+<div class="container picGiftContainer">
+  <div class="row" id="centerRow">
+    <div class="col s6" id="boxPictures">
+      <div class="divPictures">
+        <p class="boxFontHeadPic">PICTURES</p>
+        <img class="responsive-img materialboxed" width="50" src="images/picture1.jpg" />
+        <img class="responsive-img materialboxed" width="50" src="images/picture2.jpg" />
+        <img class="responsive-img materialboxed" width="50" src="images/picture3.jpg" />
+        <img class="responsive-img materialboxed" width="50" src="images/picture4.jpg" />
+        <br>
+        <img class="responsive-img materialboxed" width="50" src="images/picture5.jpg" />
+        <img class="responsive-img materialboxed" width="50" src="images/picture6.jpg" />
+        <img class="responsive-img materialboxed" width="50" src="images/picture7.jpg" />
+        <img class="responsive-img materialboxed" width="50" src="images/picture8.jpg" />
+        <br>
+        <img class="responsive-img materialboxed" width="50" src="images/picture9.jpg" />
+        <img class="responsive-img materialboxed" width="50" src="images/picture10.jpg" />
+        <img class="responsive-img materialboxed" width="50" src="images/picture11.jpg" />
+        <img class="responsive-img materialboxed" width="50" src="images/picture12.jpg" />
+      </div>
+    </div>
+    <div class="col s6" id="boxGift">
+      <p class="boxFontHeadGift">GIFT REGISTRY</p>
+      <a href=" https://www.myregistry.com/wedding-registry/Andrea-Guerrero-Keith-France-Indianapolis-IN/1027127" class="valign center-block">
+        <img src="images/present.png" alt="" />
+      </a>
+    </div>
+  </div>
+</div>
+
+</div>
+<!--footer-->
+<footer class="page-footer">
+  <div class="container">
+    <a class="right" href="https://www.instagram.com/dreferfest/">
+      <i class="fa fa-instagram" aria-hidden="true"></i>
+    </a>
+  </div>
+</footer>
+<!-- Scripts -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script   src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"   integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw="  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!--materialize.js overriding-->
+    <script>
+//sticky navbar
+      var sticky = $(".navbarSticky")
+      var stuck = "stuck";
+      var hdr = $('.jumbotron1').height();
+
+      $(window).scroll(function() {
+        if( $(this).scrollTop() > hdr ) {
+          sticky.addClass(stuck);
+        } else {
+          sticky.removeClass(stuck);
+          }
+      });
+
+//navbar scrollspy function
+      $(document).ready(function(){
+        $('#lineup').scrollSpy();
+        $('#tickets').scrollSpy();
+        $('#history').scrollSpy();
+        $('#boxMap').scrollSpy();
+        $('#boxHotelInfo').scrollSpy();
+      });
+
+//line up modal initialization
+
+$(document).ready(function(){
+  // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+  $('.modal-trigger').leanModal();
+});
+
+//history scrollfire function
+
+var options = [
+  {selector: '.offRight', offset: 350, callback: function() {
+    $('.offRight').addClass('moveFromRight');
+    $('.bulletRight').addClass('bulletFromRight')
+  } },
+  {selector: '.offRight2', offset: 350, callback: function() {
+    $('.offRight2').addClass('moveFromRight');
+    $('.bulletRight2').addClass('bulletFromRight')
+  } },
+  {selector: '.offRight3', offset: 350, callback: function() {
+    $('.offRight3').addClass('moveFromRight');
+    $('.bulletRight3').addClass('bulletFromRight')
+  } },
+  {selector: '.offRight4', offset: 350, callback: function() {
+    $('.offRight4').addClass('moveFromRight');
+    $('.bulletRight4').addClass('bulletFromRight')
+  } },
+  {selector: '.offLeft', offset: 350, callback: function() {
+    $('.offLeft').addClass('moveFromLeft');
+    $('.bulletLeft').addClass('bulletFromLeft')
+  } },
+  {selector: '.offLeft2', offset: 350, callback: function() {
+    $('.offLeft2').addClass('moveFromLeft');
+    $('.bulletLeft2').addClass('bulletFromLeft')
+  } },
+  {selector: '.offLeft3', offset: 350, callback: function() {
+    $('.offLeft3').addClass('moveFromLeft');
+    $('.bulletLeft3').addClass('bulletFromLeft')
+  } },
+  {selector: '.historyFooter', offset: 350, callback: function() {
+    $('.historyFooter').addClass('moveFromBottom')
+  } },
+];
+Materialize.scrollFire(options);
+
+//rsvp function
+
+function postContactToGoogle() {
+  var name = $('#RSVPname').val();
+  var guests = $('#RSVPguests').val();
+  var email = $('#RSVPemail').val();
+  var password = $('#RSVPpassword').val();
+
+  $.ajax({
+    url: "https://docs.google.com/forms/d/1DdFHTm3Fg832eh-plr89053TvF5osNzVrahmRnovCSw/formResponse",
+    data: {
+      "entry.2005620554": name,
+      "entry.1498269582": guests,
+      "entry.1045781291": email,
+      "entry.788806858": password
+    },
+    type: "POST",
+    dataType: "xml",
+    statusCode: {
+      0: function () {
+        var green = "Celebrate!"
+        if (password === green) {
+          Materialize.toast('Thank you for your RSVP!', 5000);
+          $('#RSVPname').val('');
+          $('#RSVPguests').val('');
+          $('#RSVPemail').val('');
+          $('#RSVPpassword').val('');
+          return true
+        } else {
+          Materialize.toast('The password you entered is incorrect', 5000);
+          $('#RSVPpassword').val('');
+          return false
+        };
+      },
+      200: function () {
+        var green = "Celebrate!"
+        if (password === green) {
+          Materialize.toast('Thank you for your RSVP!', 5000);
+          $('#RSVPname').val('');
+          $('#RSVPguests').val('');
+          $('#RSVPemail').val('');
+          $('#RSVPpassword').val('');
+          return true
+        } else {
+          Materialize.toast('The password you entered is incorrect', 5000);
+          $('#RSVPpassword').val('');
+          return false
+        };
+      }
+    }
+  });
+}
+
+//pictures function
+
+
+
+</script>
+
+
+  </body>
+</html>
